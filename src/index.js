@@ -2,12 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "../src/styles/index.css";
 import Layout from "./views/Layout";
+import { AppStoreProvider } from "./store/AppStore";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Layout />
+    <AppStoreProvider>
+      <Layout />
+    </AppStoreProvider>
   </React.StrictMode>
 );
 
