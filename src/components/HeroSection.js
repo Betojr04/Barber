@@ -11,7 +11,7 @@ export const HeroSection = () => {
           Experience the craft of professional barbering.
         </p>
         <div className="hero-cta-group">
-          <a href="#booking" className="hero-cta">
+          <a href="#scheduling" className="hero-cta">
             Book Appointment
           </a>
           <a href="#services" className="hero-cta-alt">

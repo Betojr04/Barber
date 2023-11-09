@@ -10,18 +10,18 @@ export const Navbar = () => {
           Alek Herrera
         </Link>
         <div className="navbar-menu">
-          <Link to="#services" className="navbar-link">
+          <a href="#services" className="navbar-link">
             Services
-          </Link>
-          <Link to="#about" className="navbar-link">
+          </a>
+          <a href="#about" className="navbar-link">
             About
-          </Link>
-          <Link to="#contact" className="navbar-link">
+          </a>
+          <a href="#contact" className="navbar-link">
             Contact
-          </Link>
-          <Link to="#booking" className="navbar-link navbar-cta">
+          </a>
+          <a to="#href" className="navbar-link navbar-cta">
             Book Now
-          </Link>
+          </a>
         </div>
       </div>
     </nav>
