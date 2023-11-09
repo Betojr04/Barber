@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <Link to="/" className="footer-brand">
-          The Gentleman's Cut
+          Alek Herrera -Your Favorite Barber
         </Link>
         <div className="footer-links">
           <Link to="#services" className="footer-link">
@@ -26,8 +26,9 @@ export const Footer = () => {
           </Link>
         </div>
         <p className="footer-copy">
-          &copy; {new Date().getFullYear()} The Gentleman's Cut. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Created By{" "}
+          <a href="https://betowebdev-six.vercel.app/">Alberto Valtierra</a> Jr.
+          All rights reserved.
         </p>
       </div>
     </footer>

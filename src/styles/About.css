@@ -1,0 +1,57 @@
+.about {
+  background-color: #1c1c1e; /* Dark charcoal background */
+  color: #ffffff; /* White text color */
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px; /* Ensures the text doesn't get too squished on smaller screens */
+  font-size: 1rem;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #d1d1d6; /* Light grey for readable contrast */
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 8px; /* Optional: for a more styled image presentation */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .about-content {
+    flex-direction: column-reverse; /* Image above text on smaller screens */
+  }
+
+  .about-text,
+  .about-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    text-align: center; /* Center text for a better mobile experience */
+  }
+}

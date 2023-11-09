@@ -7,7 +7,7 @@ export const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-brand">
-          The Gentleman's Cut
+          Alek Herrera
         </Link>
         <div className="navbar-menu">
           <Link to="#services" className="navbar-link">
