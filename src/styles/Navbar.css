@@ -1,6 +1,68 @@
-.navbar-container {
+.navbar {
+  background-color: #1a1a1a; /* Dark background for the navbar */
+  padding: 0 2rem;
+  height: 80px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 60px;
+  justify-content: space-between;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  color: #e0e0e0; /* Light gray for the brand text */
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-link {
+  color: #cccccc; /* Slightly lighter gray for links */
+  text-decoration: none;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  color: #ffffff; /* White for hover/focus */
+}
+
+.navbar-cta {
+  background-color: #0a58ca; /* Blue for the CTA button */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-cta:hover,
+.navbar-cta:focus {
+  background-color: #0d6efd; /* Lighter blue for hover/focus */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .navbar-menu {
+    display: none; /* Hide the navbar links on smaller screens */
+  }
+
+  /* Add toggle button for small screens if needed */
 }
