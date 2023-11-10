@@ -19,7 +19,7 @@ export const Navbar = () => {
           <a href="#contact" className="navbar-link">
             Contact
           </a>
-          <a to="#href" className="navbar-link navbar-cta">
+          <a href="#scheduling" className="navbar-link navbar-cta">
             Book Now
           </a>
         </div>

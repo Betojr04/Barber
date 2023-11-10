@@ -7,7 +7,7 @@ export const ContactMe = () => {
     <section className="contact" id="contact">
       <div className="contact-container">
         <h2>Get in Touch</h2>
-        <p>Have any questions? We're here to help.</p>
+        <p>Have any questions? I'm here to help!</p>
         <form className="contact-form">
           <input
             type="text"
