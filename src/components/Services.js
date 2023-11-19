@@ -17,46 +17,49 @@ export const Services = () => {
         <div className="service-card">
           <div className="service-icon">
             {/* Place an icon or image here */}
-            <img
+            {/* <img
               src="/path-to-your-image/icon-haircut.png"
               alt="Classic Haircut"
-            />
+            /> */}
           </div>
-          <h3>Classic Haircut</h3>
-          <p>Timeless styles combined with classic barbering techniques.</p>
+          <h3>Fade</h3>
+          <p>Your traditional fade to keep you looking fresh.</p>
         </div>
         <div className="service-card">
           <div className="service-icon">
             {/* Place an icon or image here */}
-            <img
+            {/* <img
               src="/path-to-your-image/icon-haircut.png"
               alt="Classic Haircut"
-            />
+            /> */}
           </div>
-          <h3>Classic Haircut</h3>
-          <p>Timeless styles combined with classic barbering techniques.</p>
+          <h3>Eye brows</h3>
+          <p>Keep your eyebrows looking fresh.</p>
         </div>
         <div className="service-card">
           <div className="service-icon">
             {/* Place an icon or image here */}
-            <img
+            {/* <img
               src="/path-to-your-image/icon-haircut.png"
               alt="Classic Haircut"
-            />
+            /> */}
           </div>
-          <h3>Classic Haircut</h3>
-          <p>Timeless styles combined with classic barbering techniques.</p>
+          <h3>Beard Lineup</h3>
+          <p>Keep your beard cleaned up to get all the love you deserve.</p>
         </div>
         <div className="service-card">
           <div className="service-icon">
             {/* Place an icon or image here */}
-            <img
+            {/* <img
               src="/path-to-your-image/icon-haircut.png"
               alt="Classic Haircut"
-            />
+            /> */}
           </div>
-          <h3>Classic Haircut</h3>
-          <p>Timeless styles combined with classic barbering techniques.</p>
+          <h3>Stylish Style</h3>
+          <p>
+            A nice sort of style to keep you looking fresh no matter the
+            occasion.
+          </p>
         </div>
       </div>
     </section>

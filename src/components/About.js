@@ -9,17 +9,12 @@ export const About = () => {
         <div className="about-text">
           <h2>About Alek Herrera</h2>
           <p>
-            Established in the heart of the city, The Gentleman's Cut has been
-            providing discerning men with the finest grooming experiences for
-            over a decade. Our skilled barbers are artisans of their craft,
-            dedicated to the details that make every cut a work of art.
+            Alek Herrera is a licensed barber who has been cutting hair for over
+            a year and getting all of his clients looking their best.
           </p>
           <p>
-            From the classic straight razor shave to contemporary hair designs,
-            we ensure each client leaves not just looking their best, but
-            feeling their best. Step into our world, where tradition meets
-            modern luxury, and grooming is more than a service—it's an
-            experience.
+            From the classic straight razor shave to a sharp fade, you and Alek
+            can figure out the haircut that best fits you.
           </p>
         </div>
         <div className="about-image">
